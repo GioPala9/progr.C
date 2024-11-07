@@ -1,6 +1,5 @@
 #include <stdio.h>
 #include <stdlib.h>
-
 /* 
 esercizio con variabili float e int con stampa della somma delle due 
 */
