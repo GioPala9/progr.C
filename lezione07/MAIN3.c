@@ -13,7 +13,8 @@ int main () {
     float risultato;
     printf("inserisci un numero");
     scanf("%f", &nino);
-    printf("%d * %f / %f * %f = &%f" , pippo, jj, gio, nino, pippo*jj/gio*nino);
+    // printf("%d * %f / %f * %f. Il tuo risultato è %f" , pippo, jj, gio, nino, pippo*jj/gio*nino);
+    printf("Il tuo risultato è %f" , pippo*jj/gio*nino);
     return 0;
 
 
