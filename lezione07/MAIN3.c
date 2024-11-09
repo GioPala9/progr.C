@@ -8,13 +8,13 @@ programma che chiede all'utente un dato numero, che successivamente viene moltip
 int main () {
 
     int pippo = 3;
-    float jj = 2.5;
-    float nino;
-    float risultato;
+    double jj = 2.5;
+    double nino;             /*il double  è uguale al float, è solamente più preciso*/
+    double risultato;
     printf("inserisci un numero");
-    scanf("%f", &nino);
+    scanf("%lf", &nino);
     // printf("%d * %f / %f * %f. Il tuo risultato è %f" , pippo, jj, gio, nino, pippo*jj/gio*nino);
-    printf("Il tuo risultato è %f" , pippo*jj/gio*nino);
+    printf("Il tuo risultato è: \n %f" , pippo*jj/gio*nino);
     return 0;
 
 
