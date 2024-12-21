@@ -1,4 +1,4 @@
-loat somma(float num1, float num2)
+float somma(float num1, float num2)
 {
     float ris = num1+num2;
     return ris;
